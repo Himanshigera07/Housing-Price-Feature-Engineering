@@ -30,7 +30,7 @@ The dataset contains columns such as:
 ### 4. Feature Engineering
 Created two new features:
 - `price_per_sqft` = `price / area`
-- `total_rooms` = `bedrooms + bathrooms`
+- `total_rooms` = `rooms + bathrooms`
 
 These new features aim to capture more meaningful signals for downstream modeling.
 
@@ -48,7 +48,7 @@ These new features aim to capture more meaningful signals for downstream modelin
 ## 💻 How to Use
 
 1. Clone this repository or download the notebook.
-2. Open `Task_2_Enhanced.ipynb` in Jupyter Notebook or any compatible environment.
+2. Open `Task_2.ipynb` in Jupyter Notebook or any compatible environment.
 3. Run the cells step by step to explore the feature engineering process.
 
 ---
